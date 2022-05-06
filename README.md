@@ -44,7 +44,7 @@ if you wanted more info on conversions [click here](https://byjus.com/temperatur
 
 here is a visual presentation that demonstrate some of the terms used in the aforementioned paragraphs.
 
-<img src="/src/assets/images/scales(k%2Cf%2Cc).jpeg" alt="unit of temperatures" width="450" height="1000">
+<img src="/src/assets/images/scales(k%2Cf%2Cc).jpeg" alt="unit of temperatures" width="550" height="800">
 
 ---
 ## Motivation
