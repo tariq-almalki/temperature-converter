@@ -26,10 +26,10 @@ Celsius also called Centigrade, scale based on 0° for the freezing point of wat
 
 Celsius used 0° for the boiling point of water and 100° for the melting point of snow. This was later inverted to put 0° on the cold end and 100° on the hot end, and in that form it gained widespread use.
 
-to convert from **Celsius to Kelvin**
+to convert from **Celsius to Kelvin** <br>
 <img src="http://yuml.me/diagram/scruffy/class/[K = °C + 273.15{bg:blue}]" >
 
-to convert from **Celsius to Fahrenheit**
+to convert from **Celsius to Fahrenheit** <br>
 <img src="http://yuml.me/diagram/scruffy/class/[°F = °C × (9 / 5) + 32{bg:blue}]" >
 
 Fahrenheit temperature scale, scale based on 32° for the freezing point of water and 212° for the boiling point of water, the interval between the two being divided into 180 equal parts. The 18th-century German physicist Daniel Gabriel Fahrenheit originally took as the zero of his scale the temperature of an equal ice-salt mixture and selected the values of 30° and 90° for the freezing point of water and normal body temperature, respectively; these later were revised to 32° and 96°, but the final scale required an adjustment to 98.6° for the latter value.
