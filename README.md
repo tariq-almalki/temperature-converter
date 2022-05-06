@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Temperature Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### contents
 
-## Available Scripts
+-   [Introduction](#introduction)
+-   [Motivation](#motivation)
+-   [Try it!](#try-it!)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Temperature Calculator is an application built using React for converting between units of Temperature Kelvin, Celsius also named Centigrade, Fahrenheit.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+let us talk about each unit of Temperature...
 
-### `npm test`
+kelvin (K), base unit of thermodynamic temperature measurement in the International System of Units (SI). it's named for the British physicist William Thomson (known as Lord Kelvin). An absolute temperature scale has as its zero point absolute zero (−273.15° on the Celsius temperature scale and −459.67° on the Fahrenheit temperature scale)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+to convert from **Kelvin to Celsius**
+<img src="http://yuml.me/diagram/scruffy/class/[°C = K - 273.15{bg:blue}]" >
 
-### `npm run build`
+to convert from **Kelvin to Fahrenheit**
+<img src="http://yuml.me/diagram/scruffy/class/[°F = (K - 273.15) × 9 / 5 + 32{bg:blue}]" >
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Celsius also called Centigrade, scale based on 0° for the freezing point of water and 100° for the boiling point of water. Invented in 1742 by the Swedish astronomer Anders Celsius, it is sometimes called the centigrade scale because of the 100-degree interval between the defined points.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Celsius used 0° for the boiling point of water and 100° for the melting point of snow. This was later inverted to put 0° on the cold end and 100° on the hot end, and in that form it gained widespread use.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+to convert from **Celsius to Kelvin**
+<img src="http://yuml.me/diagram/scruffy/class/[K = °C + 273.15{bg:blue}]" >
 
-### `npm run eject`
+to convert from **Celsius to Fahrenheit**
+<img src="http://yuml.me/diagram/scruffy/class/[°F = °C × (9 / 5) + 32{bg:blue}]" >
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fahrenheit temperature scale, scale based on 32° for the freezing point of water and 212° for the boiling point of water, the interval between the two being divided into 180 equal parts. The 18th-century German physicist Daniel Gabriel Fahrenheit originally took as the zero of his scale the temperature of an equal ice-salt mixture and selected the values of 30° and 90° for the freezing point of water and normal body temperature, respectively; these later were revised to 32° and 96°, but the final scale required an adjustment to 98.6° for the latter value.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+to convert from **Fahrenheit to Kelvin**
+<img src="http://yuml.me/diagram/scruffy/class/[K = (°F - 32) × 5 / 9 + 273.15{bg:blue}]" >
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+to convert from **Fahrenheit to Celsius**
+<img src="http://yuml.me/diagram/scruffy/class/[°C = (°F - 32) × 5 / 9 {bg:blue}]" >
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+if you wanted more info on conversions [click here](https://byjus.com/temperature-conversion-formula/)
 
-## Learn More
+here is a visual presentation that demonstrate some of the terms used in the aforementioned paragraphs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="/src/assets/images/scales(k%2Cf%2Cc).jpeg" alt="unit of temperatures" width="550" height="1000">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+## Motivation
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Try it!
+Live Demo: ???
