@@ -1,0 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato&family=Roboto:wght@300&display=swap');
+
+.container {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

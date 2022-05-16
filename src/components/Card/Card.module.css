@@ -1,10 +1,12 @@
 .card {
-    background-color: rgb(255, 255, 255);
+    display: grid;
+    color: white;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+    background-color: rgb(36 36 36);
     /* you need to set a high z-index for every element(so it be at the top) if you didn't set low value of z-index for 
     Particles, basically set Particles to lower z-index and that is it. */
     /* z-index: 10; */
     border-radius: 10px;
     height: 400px;
     width: 600px;
-    /* opacity: 0.5; */
 }

@@ -5,15 +5,18 @@ export const config = {
         },
     },
     fpsLimit: 120,
+    fullScreen: {
+        enable: true,
+        // important so it doesn't cover other elements and serve only as an animated background.
+        zIndex: -2,
+    },
     interactivity: {
         events: {
             onClick: {
-                enable: true,
-                mode: 'push',
+                enable: false,
             },
             onHover: {
-                enable: true,
-                mode: 'repulse',
+                enable: false,
             },
             onDiv: {
                 enable: true,
@@ -25,15 +28,6 @@ export const config = {
             },
             resize: true,
         },
-        modes: {
-            push: {
-                quantity: 4,
-            },
-            repulse: {
-                distance: 150,
-                duration: 0.4,
-            },
-        },
     },
     particles: {
         color: {
@@ -43,20 +37,20 @@ export const config = {
             color: '#ffffff',
             distance: 150,
             enable: true,
-            opacity: 1,
+            opacity: 0.5,
             width: 1,
         },
         collisions: {
-            enable: true,
+            enable: false,
         },
         move: {
             direction: 'none',
             enable: true,
             outModes: {
-                default: 'bounce',
+                default: 'out',
             },
             random: false,
-            speed: 6,
+            speed: 5,
             straight: false,
         },
         number: {
@@ -64,7 +58,7 @@ export const config = {
                 enable: true,
                 area: 800,
             },
-            value: 80,
+            value: 50,
         },
         opacity: {
             value: 0.5,
@@ -73,7 +67,7 @@ export const config = {
             type: 'circle',
         },
         size: {
-            value: { min: 1, max: 5 },
+            value: { min: 2, max: 3 },
         },
     },
     detectRetina: true,
