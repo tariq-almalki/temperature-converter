@@ -9,7 +9,7 @@ export function GridItemTwo(props) {
     const [unit, setUnit] = useState('K');
     const [errorState, setErrorState] = useState(false);
     const [message, setMessage] = useState('0–375.15');
-    const [unitValues, setUnitValues] = useState({ lower: 0, upper: 375.17 });
+    const [unitValues, setUnitValues] = useState({ lower: 0, upper: 375.15 });
 
     function ButtonHandler(event) {
         const selectedUnit = event.target.textContent;
