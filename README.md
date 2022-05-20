@@ -1,4 +1,4 @@
-# Temperature Calculator
+# Temperature Converter
 
 ### contents
 
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Temperature Calculator is an application built using React for converting between units of Temperature Kelvin, Celsius also named Centigrade, Fahrenheit.
+Temperature Converter is an application built using React for converting between units of Temperature Kelvin, Celsius also named Centigrade, Fahrenheit.
 
 let us talk about each unit of Temperature...
 
@@ -26,7 +26,7 @@ Celsius also called Centigrade, scale based on 0° for the freezing point of wat
 
 Celsius used 0° for the boiling point of water and 100° for the melting point of snow. This was later inverted to put 0° on the cold end and 100° on the hot end, and in that form it gained widespread use.
 
-to convert from **Celsius to Kelvin** 
+to convert from **Celsius to Kelvin**
 <br> <img src="http://yuml.me/diagram/scruffy/class/[K = °C + 273.15{bg:blue}]" >
 
 to convert from **Celsius to Fahrenheit**
@@ -47,9 +47,11 @@ here is a visual presentation that demonstrate some of the terms used in the afo
 <img src="/src/assets/images/scales(k%2Cf%2Cc).jpeg" alt="unit of temperatures" width="550" height="800">
 
 ---
+
 ## Motivation
 
 ---
 
 ## Try it!
+
 Live Demo: ???
