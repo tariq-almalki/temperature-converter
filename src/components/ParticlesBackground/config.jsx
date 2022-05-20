@@ -16,7 +16,8 @@ export const config = {
                 enable: false,
             },
             onHover: {
-                enable: false,
+                mode: 'repulse',
+                enable: true,
             },
             onDiv: {
                 enable: true,
