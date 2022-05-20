@@ -20,6 +20,7 @@ export function App() {
                 octoColor={isDarkMode ? '#151513' : '#fff'}
                 bannerColor={isDarkMode ? '#fff' : '#151513'}
                 href='https://github.com/kiemkist/temperature-converter'
+                target={'_blank'}
             />
         </Container>
     );
