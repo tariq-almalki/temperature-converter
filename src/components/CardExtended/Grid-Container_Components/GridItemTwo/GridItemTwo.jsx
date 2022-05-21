@@ -15,12 +15,16 @@ export function GridItemTwo(props) {
         const selectedUnit = event.target.textContent;
         const limits = limitsValues.get(selectedUnit);
 
+        let value = selectedUnit === 'K' ? 273.15 : selectedUnit === 'C°' ? 0 : 32;
+
         setMessage(`${limits.lower}–${limits.upper} `);
         setUnitValues({
             lower: limits.lower,
             upper: limits.upper,
         });
+        setValue('');
         setUnit(selectedUnit);
+        props.liftInputValue({ value, unit: selectedUnit });
     }
 
     function InputHandler(event) {
