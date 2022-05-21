@@ -1,21 +1,21 @@
-import { useState } from 'react';
 import { ButtonGroup, TextField, Button } from '@mui/material';
 // there is "colors" object from '@mui/material' you can get your colors from there...
 import { Div } from './GridItemTwo.StyledComponent.jsx';
 import limitsValues from './unit-lower-upper-values.js';
+import { useLocalStorage } from '../../../../hooks/useLocalStorage.jsx';
 
 export function GridItemTwo(props) {
-    const [value, setValue] = useState('');
-    const [unit, setUnit] = useState('K');
-    const [errorState, setErrorState] = useState(false);
-    const [message, setMessage] = useState('0–373.15');
-    const [unitValues, setUnitValues] = useState({ lower: 0, upper: 373.15 });
+    const [value, setValue] = useLocalStorage('getValue', '');
+    const [unit, setUnit] = useLocalStorage('getUnit', 'K');
+    const [errorState, setErrorState] = useLocalStorage('getError', false);
+    const [message, setMessage] = useLocalStorage('getDegree', '0–373.15');
+    const [unitValues, setUnitValues] = useLocalStorage('getLimits', { lower: 0, upper: 373.15 });
 
     function ButtonHandler(event) {
         const selectedUnit = event.target.textContent;
         const limits = limitsValues.get(selectedUnit);
 
-        let value = selectedUnit === 'K' ? 273.15 : selectedUnit === 'C°' ? 0 : 32;
+        let value = selectedUnit === 'K' ? 273.15 : selectedUnit === '°C' ? 0 : 32;
 
         setMessage(`${limits.lower}–${limits.upper} `);
         setUnitValues({
@@ -66,10 +66,10 @@ export function GridItemTwo(props) {
                     K
                 </Button>
                 <Button onClick={ButtonHandler} sx={sxOptions}>
-                    C°
+                    °C
                 </Button>
                 <Button onClick={ButtonHandler} sx={sxOptions}>
-                    F°
+                    °F
                 </Button>
             </ButtonGroup>
             <TextField
@@ -89,9 +89,9 @@ export function GridItemTwo(props) {
                 }}
                 InputLabelProps={{
                     sx: {
-                        color: props.isDarkMode ? 'rgba(0, 0, 0, 0.6)' : 'white',
+                        color: errorState ? '#D32F3F' : props.isDarkMode ? 'rgba(0, 0, 0, 0.6)' : 'white',
                         '&.Mui-focused': {
-                            color: props.isDarkMode ? 'black' : 'white',
+                            color: errorState ? '#D32F3F' : props.isDarkMode ? 'rgba(0, 0, 0, 0.6)' : 'white',
                         },
                     },
                 }}

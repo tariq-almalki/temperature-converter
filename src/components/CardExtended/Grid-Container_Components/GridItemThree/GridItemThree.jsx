@@ -10,7 +10,7 @@ export function GridItemThree(props) {
         K = value;
         C = K - 273.15;
         F = ((K - 273.15) * 9) / 5 + 32;
-    } else if (props.objInputValue.unit === 'C°') {
+    } else if (props.objInputValue.unit === '°C') {
         K = value + 273.15;
         C = value;
         F = value * (9 / 5) + 32;
