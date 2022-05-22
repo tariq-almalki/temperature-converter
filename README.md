@@ -64,4 +64,4 @@ so my advise to you is to not only watch or read, because this way of "learning"
 
 ## Try it!
 
-Live Demo: [temperature-converter](https://temperature-converter-tc.vercel.app)
+Live Demo: <a href="https://temperature-converter-tc.vercel.app" target="_blank">temperature-converter</a>
