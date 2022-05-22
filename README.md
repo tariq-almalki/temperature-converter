@@ -50,6 +50,16 @@ here is a visual presentation that demonstrate some of the terms used in the afo
 
 ## Motivation
 
+this project was build behind the incentive of enhancing my skills in React.
+
+going through the phases of building this project I realized that I'm learning, discovering new things, resources, libraries that can ease the building of this project as well as subsequent project.
+
+building a project is a great way to solidify the theory part that you get from googling stuff of reading books or even watching courses about any tech you want to learn.
+
+so my advise to you is to not only watch or read, because this way of "learning" is improper when your profession require a practical application.
+
+**you need to build the mind of practicality of your profession.**
+
 ---
 
 ## Try it!
