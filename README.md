@@ -4,7 +4,7 @@
 
 -   [Introduction](#introduction)
 -   [Motivation](#motivation)
--   [Try it!](#try-it!)
+-   [Try it!](#try-it)
 
 ---
 
