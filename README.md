@@ -52,7 +52,7 @@ here is a visual presentation that demonstrate some of the terms used in the afo
 
 this project was build behind the incentive of enhancing my skills in React.
 
-going through the phases of building this project I realized that I'm learning, discovering new things, resources, libraries that can ease the building of this project as well as subsequent project.
+going through the phases of building this project I realized that I'm learning, discovering resources, libraries that can ease the building of this project as well as subsequent projects.
 
 building a project is a great way to solidify the theory part that you get from googling stuff or reading books or even watching courses about any tech you want to learn.
 
