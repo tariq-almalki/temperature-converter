@@ -19,7 +19,7 @@ export function App() {
             <GithubCorner
                 octoColor={isDarkMode ? '#151513' : '#fff'}
                 bannerColor={isDarkMode ? '#fff' : '#151513'}
-                href='https://github.com/kiemkist/temperature-converter'
+                href='https://github.com/tariq-almalki/temperature-converter'
                 target={'_blank'}
             />
         </Container>
